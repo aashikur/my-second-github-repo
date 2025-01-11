@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Work Sans", serif; */
+
+/* Hero section  */
+#hero {
+    /* background-image: url(../assets/hero-bg.png); */
+    width: 1920px;
+    height: 919px;
+    background: linear-gradient(0deg,rgba(255,0,0,.5) 2%,rgba(0,0,255,.5) 100% ),url(../assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+#hero .hero-container {
+    width: 1000px;
+    background-color: red;
+  
+}
